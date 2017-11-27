@@ -44,6 +44,10 @@ class TestMethods(unittest.TestCase):
         network.weights_hidden_to_output = test_w_h_o.copy()
         
         network.train(inputs, targets)
+        
+        # import ipdb
+        # ipdb.set_trace()
+        
         self.assertTrue(np.allclose(network.weights_hidden_to_output, 
                                     np.array([[ 0.37275328], 
                                               [-0.03172939]])))
