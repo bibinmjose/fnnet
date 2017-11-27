@@ -1,0 +1,11 @@
+*~
+*.org
+*.pem
+*.pkl
+*.pyc
+.DS_Store
+loc.py
+src/ec2
+__pycache__
+.pynb_checkpoints/Your_first_neural_network-checkpoint.ipynb
+.pynb_checkpoints/*
